@@ -7,12 +7,12 @@ const commentSchema = new Schema(
             required: true,
             trim: true
         },
-        blogId: {
+        blog: {
             type: Schema.Types.ObjectId,
             ref: "BLOG",
             required: true,
         },
-        userId: {
+        user: {
             type: Schema.Types.ObjectId,
             ref: "USER",
             required: true

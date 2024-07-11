@@ -12,7 +12,7 @@ const blogSchema = new Schema(
             required: true,
             trim: true
         },
-        userId: {
+        user: {
             type: Schema.Types.ObjectId,
             ref: "USER",
             required: true

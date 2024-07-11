@@ -1,1 +1,1 @@
-export const DATABASE_NAME = "myblog"
+export const DATABASE_NAME = "WalPost"
